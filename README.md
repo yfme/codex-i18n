@@ -3,6 +3,8 @@
 
 <p align="center"><code>npm i -g @openai/codex</code></p>
 
+**English** | [简体中文](./README.zh-CN.md) | [Español](./README.es.md) | [Português](./README.pt.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [繁體中文](./README.zh-TW.md) | [Bahasa Indonesia](./README.id.md) | [Italiano](./README.it.md)
+
 ![Codex demo GIF using: codex "explain this codebase to me"](./.github/demo.gif)
 
 ---
@@ -43,7 +45,7 @@
 
 ## Experimental Technology Disclaimer
 
-Codex CLI is an experimental project under active development. It is not yet stable, may contain bugs, incomplete features, or undergo breaking changes. We’re building it in the open with the community and welcome:
+Codex CLI is an experimental project under active development. It is not yet stable, may contain bugs, incomplete features, or undergo breaking changes. We're building it in the open with the community and welcome:
 
 - Bug reports
 - Feature requests
@@ -84,9 +86,9 @@ codex "explain this codebase to me"
 codex --approval-mode full-auto "create the fanciest todo-list app"
 ```
 
-That’s it – Codex will scaffold a file, run it inside a sandbox, install any
+That's it – Codex will scaffold a file, run it inside a sandbox, install any
 missing dependencies, and show you the live result. Approve the changes and
-they’ll be committed to your working directory.
+they'll be committed to your working directory.
 
 ---
 
@@ -94,7 +96,7 @@ they’ll be committed to your working directory.
 
 Codex CLI is built for developers who already **live in the terminal** and want
 ChatGPT‑level reasoning **plus** the power to actually run code, manipulate
-files, and iterate – all under version control. In short, it’s _chat‑driven
+files, and iterate – all under version control. In short, it's _chat‑driven
 development_ that understands and executes your repo.
 
 - **Zero setup** — bring your OpenAI API key and it just works!
@@ -122,8 +124,8 @@ will also show a warning/confirmation if you start in **auto‑edit** or
 **full‑auto** while the directory is _not_ tracked by Git, so you always have a
 safety net.
 
-Coming soon: you’ll be able to whitelist specific commands to auto‑execute with
-the network enabled, once we’re confident in additional safeguards.
+Coming soon: you'll be able to whitelist specific commands to auto‑execute with
+the network enabled, once we're confident in additional safeguards.
 
 ### Platform sandboxing details
 
@@ -309,7 +311,7 @@ Any model available with [Responses API](https://platform.openai.com/docs/api-re
 
 ## Funding Opportunity
 
-We’re excited to launch a **$1 million initiative** supporting open source projects that use Codex CLI and other OpenAI models.
+We're excited to launch a **$1 million initiative** supporting open source projects that use Codex CLI and other OpenAI models.
 
 - Grants are awarded in **$25,000** API credit increments.
 - Applications are reviewed **on a rolling basis**.
@@ -322,7 +324,7 @@ We’re excited to launch a **$1 million initiative** supporting open source pr
 
 This project is under active development and the code will likely change pretty significantly. We'll update this message once that's complete!
 
-More broadly we welcome contributions – whether you are opening your very first pull request or you’re a seasoned maintainer. At the same time we care about reliability and long‑term maintainability, so the bar for merging code is intentionally **high**. The guidelines below spell out what “high‑quality” means in practice and should make the whole process transparent and friendly.
+More broadly we welcome contributions – whether you are opening your very first pull request or you're a seasoned maintainer. At the same time we care about reliability and long‑term maintainability, so the bar for merging code is intentionally **high**. The guidelines below spell out what "high‑quality" means in practice and should make the whole process transparent and friendly.
 
 ### Development workflow
 
@@ -393,7 +395,7 @@ Together we can make Codex CLI an incredible tool. **Happy hacking!** :rocket:
 All contributors **must** accept the CLA. The process is lightweight:
 
 1. Open your pull request.
-2. Paste the following comment (or reply `recheck` if you’ve signed before):
+2. Paste the following comment (or reply `recheck` if you've signed before):
 
    ```text
    I have read the CLA Document and I hereby sign the CLA
