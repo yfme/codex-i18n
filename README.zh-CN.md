@@ -3,6 +3,8 @@
 
 <p align="center"><code>npm i -g @openai/codex</code></p>
 
+[English](./README.md) | **简体中文** | [Español](./README.es.md) | [Português](./README.pt.md) | [Русский](./README.ru.md) | [Français](./README.fr.md) | [Deutsch](./README.de.md) | [日本語](./README.ja.md) | [한국어](./README.ko.md) | [繁體中文](./README.zh-TW.md) | [Bahasa Indonesia](./README.id.md) | [Italiano](./README.it.md)
+
 ![Codex 演示 GIF：使用 codex "explain this codebase to me"](./.github/demo.gif)
 
 ---
